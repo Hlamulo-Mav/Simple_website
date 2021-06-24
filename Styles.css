@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/*importing font style*/
+.title{
+	font-family: 'Goblin One', cursive;
+	color: #fac22d;;
+}
+
+
+/*declaring a background picture for index page*/
+.frogs{
+	background-image: url('plain6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/*styles the link inside the Navigation bar*/
+.menu {
+	float : right;
+}
+
+.menu a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: centre;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	background-color : black;
+
+}
+
+.menu a:hover {
+	background-color: gray;
+}
+
+
+/* about us background image*/
+.backpic {
+	background-image: url('Contact-Us.JPG');
+	background-size: cover;
+}
+
+/*colour of text*/
+.tt {
+	color : white;
+}
+
+
+/* creating a  fixed footer*/
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 7%;
+	background-color: black;
+	color: white;
+	
+}
+
+.foot{
+	padding-left: 850px;
+}
+
+/*declaring image sizes for PRODUCTS using flex*/
+.row {
+  display: flex;
+  padding-top: 130px;
+}
+
+.column {
+  flex: 40px;
+  padding: 15px;
+  display: block;
+}
+
+
+/*creating a form*/
+
+ input[type=text], textarea {
+  width: 100%; /* Full width */
+  height: 100%;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.paragraph {
+	padding-top: 130px;
+}
+
+
+/*link social media accounts*/
+.fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 3px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.abrow {
+  display: flex;
+  padding-top: 100px;
+}
+
+.abcolumn {
+  flex: 60px;
+  padding:15px;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
