@@ -6,7 +6,6 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header{}
 
 #header #logo{margin:22px 0 0 0;}
 
@@ -191,7 +190,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .box1{
   width: 300px;
   height: 300px;
-  margin: 15px;
+  margin: 20px;
   text-align: center;
   padding: 40px 20px;
   color: #ffffff;
@@ -399,7 +398,7 @@ flex: 2 0px;
 	.sectiontitle{max-width:none;}
 }
 
-@media screen and (max-width: 978px)
+@media screen and (max-width: 978px) 
 .container {
 }
 
