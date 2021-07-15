@@ -2,7 +2,7 @@
 * [General info](#General-info)
 * [Technologies](#Technologies)
 * [Getting Started](#setup)
-* [Screenshots] (#Screenshots)
+* [Screenshots](#Screenshots)
 * [Authors](#Authors)
 * [Contributing](#Contributing)
 * [ Acknowledgements](#Acknowledgements)
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
 
 ## Screenshots
-![Screenshot](./images/Screenshot.png)
+![Screenshot](Screenshot.png)
 
 ## Authors
 :bust_in_silhouette: **Hlamulo**
