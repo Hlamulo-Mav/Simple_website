@@ -29,6 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Enter the directory where you cloned or downloaded the project and open index.html file using your favorite browser
 
 ## Screenshots
+![Screenshot](Screenshot2.png)
 ![Screenshot](Screenshot.png)
 
 ## Authors
