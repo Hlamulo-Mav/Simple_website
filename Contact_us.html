@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>Contact us</title>
-		<link rel = "stylesheet" type = "text/css" href = "Styles.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CREATIVE CIRCLE</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="Styles.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body class = "backpic">
-		<main>
-		<div class = "backpic">
-		<h1 class = "title">Contact Us</h1>
-		<div class = "menu">
-			<a href="index.html">Home</a> 
-			<a href="Products.html">Products</a>
-			<a href="AboutUs.html" >About Us</a>
-			<a href="Contact_us.html" style="color: yellow;">Contact Us</a>  
+	<body id = "Top">
+		<div class = "wrapper row1">
+		<header id="header" class="hoc">
+			<div id="logo" class="fl_left"> 
+				<h1 class="title">Contact Us</h1>
+			</div>
+			<div class = "menu">
+				<a href="index.html">Home</a> 
+				<a href="Products.html">Products</a>
+				<a href="AboutUs.html" >About Us</a>
+				<a href="Contact_us.html" style="color: yellow;">Contact Us</a> 
+			</div>
+		</header>	
 		</div>
-		<br>
-		<br>
-		<br>
 		
-		<div class="container">
+		<div class="bgded overlay" style="background-image:url('bbpic.jpg');">
+		<div id="pageintro" class="hoc"> 
+			<article>
+				<h3 class="heading">Contact Us</h3>
+			</article>
+		</div>
+		</div>
+		
+		<div class = "wrapper">
+			<div class="sectiontitle">
+			</div>
+			<div>
+				<h2 class="font-x2">Let's Get In Touch</h2>
+			</div>
+		</div>
+		<div class="containerr hoc" style = "width:50%">
 			<form action="/action_page.php">
 				<label for="fname">First Name</label>
 				<input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -37,15 +55,52 @@
 				
 				<label for="subject">Subject</label>
 				<textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-				<input type="submit" value="Submit">
 			</form>
+			<button class="button" onclick="myFunction()">Submit</button>
+			<p style= "font-size:20px" id="demo"></p>
+			<script src="java.js"></script>
 		</div>
 		
-	<div class = "footer">
-		<p> Copyrights 2021. All Rights are Reserved by Creative-Circle<span class = "foot"><a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-		<a href="https://twitter.com/?logout=1622533140992" class="fa fa-twitter"></a>
-		<a href="https://www.linkedin.com/home" class="fa fa-linkedin"></a></span> </p> 
+	<div class="bgded overlay";>
+		<footer class="footer">
+		<div class="l-footer">
+			<h1>Creative Circle</h1>
+			<p>We are a compact but multi-skilled agency based in Pretoria. We provide professional web, graphic design and event management services. We build mobile-friendly, professional websites that look great and are easy-to-use.</p>
+		</div>
+		<ul class="r-footer">
+			<li>
+				<h2>Social</h2>
+				<ul class="box">
+					<li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+					<li><a href="https://twitter.com/?logout=1622533140992" class="fa fa-twitter"></a></li>
+					<li><a href="https://www.linkedin.com/home" class="fa fa-linkedin"></a></li>
+				</ul>
+			</li>
+			<li class="features">
+				<h2>Information</h2>
+				<ul class="box h-box">
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">Sales</a></li>
+					<li><a href="#">Tickets</a></li>
+					<li><a href="#">Certifications</a></li>
+					<li><a href="#">Customer Service</a></li>
+				</ul>
+			</li>
+			<li>
+				<h2>Legal</h2>
+				<ul class="box">
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Contract</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="b-footer">
+		<p>Copyright &copy; 2021 - All Rights Reserved - <a href="#">Creative Circle</a></p>
+		</div>
+		</footer>
+
 	</div>
-	</main>
 	</body>
 </html>
