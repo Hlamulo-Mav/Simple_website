@@ -11,7 +11,7 @@
 
 # General info
 
-A basic Basic responsive website with only 4 pages, Landing page, About us, Services and Contact us
+A basic Basic responsive website with only 4 pages, Landing page, About us, Services and Contact us. attached <a href="https://hlamulo-mav.github.io/index.html" rel="nofollow">Live Demo</a>
 
 ## Technologies
 - Html
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ![Screenshot](Screenshot.png)
 
 ## Live-Demo
-
+ -----> <a href="https://hlamulo-mav.github.io/index.html" rel="nofollow">Live Demo</a>
 
 ## Authors
 :bust_in_silhouette: **Hlamulo**
