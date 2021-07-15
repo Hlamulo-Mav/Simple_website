@@ -15,6 +15,6 @@ carousel();
 }
 
 function myFunction() {
-  document.getElementById("demo").innerHTML = "THANK YOU! Come Back Soon!!";
+  	alert("THANK YOU! Come Back Soon!!")
 }
 	

@@ -7,6 +7,7 @@
 * [Contributing](#Contributing)
 * [ Acknowledgements](#Acknowledgements)
 * [License](#License)
+* [Live-Demo](#Live-Demo)
 
 # General info
 
@@ -31,6 +32,9 @@ To get a local copy up and running follow these simple example steps.
 ## Screenshots
 ![Screenshot](Screenshot2.png)
 ![Screenshot](Screenshot.png)
+
+## Live-Demo
+
 
 ## Authors
 :bust_in_silhouette: **Hlamulo**
